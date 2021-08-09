@@ -1,6 +1,5 @@
 <script>
   export let mainTitle;
-  export let src;
 </script>
 
 <main>

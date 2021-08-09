@@ -88,7 +88,7 @@
       ul{
         li{
           a{
-            font-size: .9rem;
+            font-size: 1.1rem;
             &:hover{
               color: $orange_hover_color;
             }

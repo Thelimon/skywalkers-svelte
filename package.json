@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "fontawesome-svelte": "^2.0.1",
     "node-sass": "^6.0.1",
     "sirv-cli": "^1.0.0",
     "svelte-fa": "^2.2.1",

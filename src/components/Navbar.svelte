@@ -38,7 +38,7 @@
       display: flex;
       justify-content: space-between;
       list-style: none;
-      padding: 1rem;
+      padding: .8rem;
       margin: 0;
       li{
         a{

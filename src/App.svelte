@@ -4,10 +4,10 @@
     faConciergeBell,
     faCar,
   } from "@fortawesome/free-solid-svg-icons";
+import Contact from "./components/Contact.svelte";
 
   import Hero from "./components/Hero.svelte";
   import Navbar from "./components/Navbar.svelte";
-  import SocialMedia from "./components/SocialMedia.svelte";
   import Specs from "./components/Specs.svelte";
 
   export let companyName;
@@ -33,17 +33,15 @@
     carInfo: {
       icon: faCar,
       text: "All range of cars <br> at low prices per <strong>day</strong>",
-    },
+    }
   };
 
-  const finalProps = {
-    title: "Join us",
-  };
 </script>
 
 <Navbar {companyName} />
 <Hero {...heroProps} />
 <Specs {...specProps} />
+<Contact />
 
 <style lang="scss">
   :global(body) {

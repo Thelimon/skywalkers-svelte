@@ -1,35 +1,22 @@
 <script>
-  export let name;
-  export let classMate;
-  import Hijo from "./Hijo.svelte"
+import Navbar from "./components/Navbar.svelte";
 
-  setTimeout(() => {
-    classMate= "Santi"
-  }, 3000);
+export let companyName;
 </script>
 
-<h1>Hello {name}!</h1>
+
 
 <div>
-  <p>SASS is working!</p>
-  <h1> Hola {classMate} y {name}</h1>
-  <Hijo />
+  <Navbar companyName={companyName}/>
 </div>
 
 
 <style lang="scss">
-
-  @import './styles/vars.scss';
-
-  h1 {
-    background-color: $background;
-  }
-
-  div {
-    background: green;
-
-    p {
-      color: #fff;
-    }
+  :global(body){
+    margin: 0;  
+    padding: 0;
+    width: 0;
+    height: 100vh;
+    box-sizing: border-box;
   }
 </style>

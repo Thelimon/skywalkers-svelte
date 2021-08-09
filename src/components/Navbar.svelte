@@ -30,7 +30,7 @@
       align-items: center;
       padding: 1rem;
       img{
-        width: 5rem;
+        width: 4rem;
         margin-right: .5rem;
       }
     }
